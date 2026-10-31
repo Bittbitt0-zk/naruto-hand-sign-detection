@@ -3,6 +3,19 @@
 ---
 # NARUTO-HandSignDetection
 This is a model and sample program that detects the Naruto' hand sign using object detection.
+
+## Personal extension: hand-tracked jutsu animations
+
+This project is based on [Kazuhito Takahashi's NARUTO-HandSignDetection](https://github.com/Kazuhito00/NARUTO-HandSignDetection).
+
+### My contribution
+
+- Added PNG animation playback for Chidori, Rasengan, and Susanoo effects.
+- Added transparent PNG compositing over the camera image.
+- Connected hand tracking and effect placement to the ninjutsu demo.
+
+The original hand-sign recognition system and YOLOX model are credited to the original project.
+
 <!--
 ![header](https://user-images.githubusercontent.com/37477845/95489808-4fb55c80-09d2-11eb-95f0-c3cdc6d55d83.png)
 -->

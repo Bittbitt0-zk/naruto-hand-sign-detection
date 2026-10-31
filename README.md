@@ -3,6 +3,19 @@
 ---
 # NARUTO-HandSignDetection
 物体検出を用いてNARUTOの印を検出するモデルとサンプルプログラムです。
+
+## 個人拡張：手の位置に追従する忍術アニメーション
+
+このプロジェクトは、[高橋かずひとさんの NARUTO-HandSignDetection](https://github.com/Kazuhito00/NARUTO-HandSignDetection) をもとにしています。
+
+### 自分が追加した機能
+
+* Chidori、Rasengan、Susanoo の PNG アニメーション再生
+* 透過 PNG をカメラ映像に合成する処理
+* 手の追跡とエフェクト表示を忍術デモに統合
+
+元の印認識システムと YOLOX モデルは、オリジナルのプロジェクトに帰属します。
+
 <!--
 ![header](https://user-images.githubusercontent.com/37477845/95489808-4fb55c80-09d2-11eb-95f0-c3cdc6d55d83.png)
 -->
